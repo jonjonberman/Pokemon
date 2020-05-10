@@ -1,0 +1,9 @@
+In this program we are trying to classify pokemon as either legendary or not legendary based on their types and stats. 
+The pokemon data is contained within the pokemon.csv file. This file contains 800 rows and 13 columns. The features are 
+the pokemons ID, name, type1, type2, total stat, health, attack, defense, sp atk, sp def, speed, generation, and legendary status. 
+
+Our classification is done using an unpruned decision tree. The data is split into a train-test split using a 9-1 ratio. 
+The model is evaluated using accuracy and AUC. 
+
+The accuracy of our model was found to be 97.5%, while the AUC was 91%. This implies that the model is much better than simply 
+guessing, and the accuracy is very high meaning the model is a good classifier. 
